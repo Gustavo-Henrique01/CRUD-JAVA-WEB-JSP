@@ -1,0 +1,9 @@
+CREATE TABLE produtos (
+    id integer NOT NULL,
+    descricao character varying(255),
+    categoria character varying(255),
+    preco_custo double precision,
+    preco_venda double precision,
+    quantidade integer,
+    data_entrada date
+);
